@@ -1,0 +1,17 @@
+name: SigmaVanish
+version: '1.0'
+main: io.github.iirontools.sigmaVanish.SigmaVanish
+api-version: '1.21'
+authors: [ Iirontools ]
+description: Advanced Vanish Plugin
+website: https://github.io/iirontools
+permissions:
+  dzialki.admin.vanish:
+    description: "Main vanish permission"
+    default: op
+  dzialki.admin.vanish.see:
+    description: "If player can see vanished players"
+    default: false
+  dzialki.admin.vanish.others:
+    description: "If player can vanish other players"
+    default: false
